@@ -1,1 +1,1 @@
-**Repository for hosting my personal web portfolio.**
+**Repository for my personal web portfolio.**
