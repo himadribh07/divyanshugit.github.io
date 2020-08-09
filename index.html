@@ -1,178 +1,227 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS files -->
-        <link rel="stylesheet" href="CSS/style.css" type="text/css">
-        <link rel="stylesheet" href="CSS/animate.css" type="text/css">
-        <link rel="stylesheet" href ="https://fonts.googleapis.com/css?family=Raleway:700&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap">
-        <link rel="icon"  href="images/icon.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
-        <script src="JS/script.js"></script>  
-        <title>Divyanshu's Portfolio</title>
+        <meta charSet="utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <style data-href="/styles.9887084f97ddda504d31.css">
+        *{
+            font-family:Open Sans,sans-serif
+         }
+         body{margin:0}
+        *{
+            --primary-color:#0873e8;
+            --text-color-light:#d4d4d4;--text-color:#4a4a4a
+            }
+        .index-module--particles--2USTF {
+            height:100vh;
+            position:absolute;
+            top:0;
+            right:0;
+            left:0;
+        }
+        .index-module--outerContainer--3TSMx{
+            display:flex;
+            height:100vh;
+            align-items:center;
+            justify-content:center
+        }
+        .index-module--container--Eqp4Q{
+            margin:0 .5em;
+            z-index:1;
+            padding-bottom:6.5em
+        }
+        .about-module--headline--ZUnTa{
+            font-size:1.7rem;
+            color:var(--primary-color);
+            font-weight:300
+        }
+        .about-module--underline--6OmQ7{
+            font-size:1.125rem;
+            color:var(--text-color)
+        }
+        @media (min-width:576px){
+            .about-module--headline--ZUnTa{
+                font-size:2.5rem
+            }
+            .about-module--underline--6OmQ7{
+                font-size:1.5rem
+            }
+        }
+        .links-module--links--3tgnt{
+            display:flex;
+            justify-content:center
+        }
+        .links-module--links--3tgnt a:hover{
+            border-bottom:1px solid var(--primary-color);
+            margin-bottom:-1px
+        }
+        .links-module--links--3tgnt svg{
+            width:2rem;
+            height:2rem;
+            fill:var(--text-color);
+            padding:.75rem
+        }
+        @media (min-width:576px){
+            .links-module--links--3tgnt a{
+                margin:0 .5rem
+            }
+            .links-module--links--3tgnt svg{
+                width:2.5rem;
+                height:2.5rem;
+            }
+        }
+        .footer-module--container--2iXoO{
+            z-index:1;
+        }
+        .footer-module--list--3cuQB{
+            display:flex;
+            list-style:none;
+            justify-content:center;
+            width:100%;
+            padding:0;
+            margin:0;
+        }
+        .footer-module--list--3cuQB li{
+            padding:1em 1.5em;
+        }
+        .footer-module--list--3cuQB li span{
+            color:var(--text-color-light)
+        }
+        .footer-module--list--3cuQB a{
+            color:var(--text-color);
+            text-decoration:none
+        }
+        .footer-module--list--3cuQB a:focus,.footer-module--list--3cuQB a:hover{
+            border-bottom:1px solid var(--text-color);
+            margin-bottom:-1px;
+        }
+        @media (min-width:766px){
+            .footer-module--list--3cuQB li{
+                padding:1em 2em
+            }
+        }
+        </style>
+        <meta name="generator" content="Gatsby 2.18.21"/>
+        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2"/>
+        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"/>
+        <style type="text/css">
+            @font-face{
+                font-family:'Open Sans';
+                font-style:normal;
+                font-weight:300;
+                src:local('Open Sans Light'),local('OpenSans-Light'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format('woff');
+                font-display: swap;
+            }
+            @font-face{
+                font-family:'Open Sans';
+                font-style:normal;font-weight:600;
+                src:local('Open Sans SemiBold'),local('OpenSans-SemiBold'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhv.woff) format('woff');
+                font-display: swap;
+            }
+        </style>
+        <link rel="icon" href="/icons/icon-48x48.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="manifest" href="/manifest.webmanifest"/>
+        <meta name="theme-color" content="#0873e8"/>
+        <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=733b57ba1424482a4e7d71d08b770d41"/>
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
+        <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/>
+
+        <script>
+            if(true) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            }
+            if (typeof ga === "function") {
+                ga('create', 'UA-92889653-1', 'auto', {});
+                }
+        </script>
+        <title data-react-helmet="true">Divyanshu Kumar</title>
+        <link data-react-helmet="true" rel="canonical" href="https://divyanshusingh.me"/>
+        <meta data-react-helmet="true" charSet="utf-8"/>
+        <meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta data-react-helmet="true" name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta data-react-helmet="true" name="title" content="Anupam Dagar - Full Stack Developer"/>
+        <meta data-react-helmet="true" name="description"
+            content="Hi, my name is Divyanshu Kumar. I&#x27;m a Software Developer/Machine Learning
+            & Data Science Enthusiast and a pre-final year undergraduate student at
+            Narula Institute of Technology Kolkata in India."/>
+        <meta data-react-helmet="true" name="application-name" content="Divyanshu Kumar"/>
+        <meta data-react-helmet="true" name="theme-color" content="#48bfcd"/>
+        <meta data-react-helmet="true" name="apple-mobile-web-app-title" content="Divyanshu Kumar"/>
+        <meta data-react-helmet="true" name="apple-mobile-web-app-capable" content="yes"/>
+        <meta data-react-helmet="true" name="apple-mobile-web-app-status-bar-style" content="default"/>
+        <meta data-react-helmet="true" name="mobile-web-app-capable" content="yes"/>
+        <link as="script" rel="preload" href="/component---src-pages-index-js-731febc6ec13823651c4.js"/>
+        <link as="script" rel="preload" href="/app-96a0cc9f30c1c53a4d57.js"/>
+        <link as="script" rel="preload" href="/commons-668f6f4ff43a3b8c8800.js"/>
+        <link as="script" rel="preload" href="/styles-1b7197e6ca7183ce89ce.js"/>
+        <link as="script" rel="preload" href="/webpack-runtime-2d50ee2280cc6f01b07a.js"/>
+        <link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous"/>
     </head>
-    <body>
-        
-        <div class="container navbar">
-            <header>
-                <div class="lgo">
-                    <h1>Divyanshu</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About me</a></li>
-                        <li><a href="#skills">About me</a></li>
-                        <li><a href="#Work">About me</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-
-        <div class="container main-info-section">
-            <div>
-                <h1>
-                    <span>H</span>
-                    <span class="m-left">i</span>
-                    <span class="m-left">,</span>
-                    <br>
-                    <span>I</span>
-                    <span class="m-left">'</span>
-                    <span class="m-left">m</span>
-                    <span class="name">D</span>
-                    <span class="m-left name">i</span>
-                    <span class="m-left name">v</span>
-                    <span class="m-left name">y</span>
-                    <span class="m-left name">a</span>
-                    <span class="m-left name">n</span>
-                    <span class="m-left name">s</span>
-                    <span class="m-left name">h</span>
-                    <span class="m-left name">u</span>
-                    <span class="m-left name">,</span>
-                    <br>
-                    <span>W</span>
-                    <span class="m-left">e</span>
-                    <span class="m-left">b</span>
-                    <span>D</span>
-                    <span class="m-left">e</span>
-                    <span class="m-left">s</span>
-                    <span class="m-left">i</span>
-                    <span class="m-left">g</span>
-                    <span class="m-left">n</span>
-                    <span class="m-left">e</span>
-                    <span class="m-left">r</span>
-                    <span class="m-left">.</span>
-                </h1>
-                <p>CSS / JavaSCript / React</p>
-                <a href="#contact">Contact Me</a>
+<body>
+    <div id="___gatsby">
+        <div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper">
+            <div class="index-module--particles--2USTF">
+                <canvas style="width:100%;height:100%">
+                </canvas>
             </div>
-            <div class="profile-image">
-                <img src="images/profile-pic.jpg" alt="">
+            <div class="index-module--outerContainer--3TSMx">
+                <div class="index-module--container--Eqp4Q">
+                    <h1 class="about-module--headline--ZUnTa">Divyanshu Kumar</h1>
+                    <p class="about-module--underline--6OmQ7">I&#x27;m a 
+                        <strong>Software</strong> Developer </br><!--<i>Machine Learning
+                            & Data Science</i> Enthusiast<br/>< -->Pre-Final Year Student at<br>
+                        <strong>Narula Institute of Technology Kolkata</strong></p>
+                <div class="links-module--links--3tgnt">
+                    <a href="https://twitter.com/DivyanshuIAm">
+                        <img align="left" alt="Divyanshu's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+                      </a>
+                      <a href="https://linkedin.com/in/divyanshuusingh">
+                        <img align="left" alt="Divyanshu's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+                      </a>
+                      <a href="https://github.com/divyanshugit">
+                        <img align="left" alt="Divyanshu's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+                      </a>
+                      <a href="https://instagram.com/ig_divyanshusingh/">
+                        <img align="left" alt="Divyanshu's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+                      </a>
+                     
+                      <a href="mailto:kumardivy1999@gmail.com">
+                        <img align="left" alt="Link to my email address" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/mail-dot-ru.svg" />
+                      </a> 
             </div>
         </div>
-
-        <div class="container about" id="about">
-            <h1>About</h1>
-            <div class="about-me-info">
-                <p>Madison Blackstone is a director of brand marketing, 
-                with experience managing global teams and multi-million-dollar campaigns. 
-                Her background in brand strategy, visual design, and account management inform her mindful</p>
-                <p>Madison Blackstone is a director of brand marketing, 
-                with experience managing global teams and multi-million-dollar campaigns. 
-                Her background in brand strategy, visual design, and account management inform her mindful</p>
-                <p>Madison Blackstone is a director of brand marketing, 
-                with experience managing global teams and multi-million-dollar campaigns. 
-                Her background in brand strategy, visual design, and account management inform her mindful</p>
-            </div>
-            <img src="images/dotted-shape.png" alt="">
-        </div>
-        
-
-        <div class="containter skills" id="skills">
-            <h1>Skills</h1>
-            <p class="skills-info">with experience managing global teams and multi-million-dollar campaigns. 
-            Her background in brand strategy, visual design, and account management inform her mindful</p>
-            <div class="html">
-                <div class="tag-html">
-                    <p>HTML</p>
-                </div>
-                <div class="progressbar">
-                    <div class="bar-html"></div>
-                </div>
-            </div>
-            <div class="html">
-                <div class="tag-css">
-                    <p>HTML</p>
-                </div>
-                <div class="progressbar">
-                    <div class="bar-css"></div>
-                </div>
-            </div>
-            <div class="html">
-                <div class="tag-javascript">
-                    <p>HTML</p>
-                </div>
-                <div class="progressbar">
-                    <div class="bar-javascript"></div>
-                </div>
-            </div>
-            <div class="html">
-                <div class="tag-react">
-                    <p>HTML</p>
-                </div>
-                <div class="progressbar">
-                    <div class="bar-react"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container work" id="work">
-            <h1>Work</h1>
-            <div class="work-category">
-                <button id="desinging" class="active">Web Desinging</button>
-                <button id="animation">Web Animation</button>
-                <button id="project">React Project</button>
-            </div>
-            <div class="category-designing showCategory">
-                <a href=""><img src="images/1.png"></a>
-                <a href=""><img src="images/1.png"></a>
-                <a href=""><img src="images/1.png"></a>
-            </div>
-            <div class="category-designing hideCategory">
-                <a href=""><img src="images/1.png"></a>
-                <a href=""><img src="images/1.png"></a>
-                <!-- <a href=""><img src="images/1.png"></a> -->
-            </div>
-            <div class="category-designing hideCategory">
-                <a href=""><img src="images/1.png"></a>
-                <!-- <a href=""><img src="images/1.png"></a>
-                <a href=""><img src="images/1.png"></a> -->
-            </div>
-        </div>
-
-        <div class="container contact" id="contact">
-            <h1>Contact Me</h1>
-            <form>
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
-                <input type="email" placeholder="PorfolioPersonalmail@example.com" disabled>
-                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <input type="submit">
-            </form>
-        </div>
-
-        <footer>
-            <hr>
-            <p>2020 Copyright. All Rights Reserved.</p>
-        </footer>
-        
+    </div>
+    <nav class="footer-module--container--2iXoO">
+        <ul class="footer-module--list--3cuQB"></ul>
+    </nav>
+</div>
+</div>
+        <script id="gatsby-script-loader">
+        /*<![CDATA[*/window.pagePath="/";/*]]>*/
+        </script>
+        <script id="gatsby-chunk-mapping">
+        /*<![CDATA[*/window.___chunkMapping={
+            "app":["/app-96a0cc9f30c1c53a4d57.js"],
+            "component---node-modules-gatsby-plugin-offline-app-shell-js":[
+                "/component---node-modules-gatsby-plugin-offline-app-shell-js-49db94800dd63ef7675b.js"]
+                ,"component---src-pages-index-js":["/component---src-pages-index-js-731febc6ec13823651c4.js"]
+            };/*]]>*/
+        </script>
+        <script src="/webpack-runtime-2d50ee2280cc6f01b07a.js" async=""></script>
+        <script src="/styles-1b7197e6ca7183ce89ce.js" async=""></script>
+        <script src="/commons-668f6f4ff43a3b8c8800.js" async=""></script>
+        <script src="/app-96a0cc9f30c1c53a4d57.js" async=""></script>
+        <script src="/component---src-pages-index-js-731febc6ec13823651c4.js" async=""></script>
     </body>
 </html>
