@@ -1,228 +1,715 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charSet="utf-8"/>
-        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link rel="icon"  href="images/icon.png">
-        <style data-href="/styles.9887084f97ddda504d31.css">
-        *{
-            font-family:Open Sans,sans-serif
-         }
-         body{margin:0}
-        *{
-            --primary-color:#0873e8;
-            --text-color-light:#d4d4d4;--text-color:#4a4a4a
-            }
-        .index-module--particles--2USTF {
-            height:100vh;
-            position:absolute;
-            top:0;
-            right:0;
-            left:0;
-        }
-        .index-module--outerContainer--3TSMx{
-            display:flex;
-            height:100vh;
-            align-items:center;
-            justify-content:center
-        }
-        .index-module--container--Eqp4Q{
-            margin:0 .5em;
-            z-index:1;
-            padding-bottom:6.5em
-        }
-        .about-module--headline--ZUnTa{
-            font-size:1.7rem;
-            color:var(--primary-color);
-            font-weight:300
-        }
-        .about-module--underline--6OmQ7{
-            font-size:1.125rem;
-            color:var(--text-color)
-        }
-        @media (min-width:576px){
-            .about-module--headline--ZUnTa{
-                font-size:2.5rem
-            }
-            .about-module--underline--6OmQ7{
-                font-size:1.5rem
-            }
-        }
-        .links-module--links--3tgnt{
-            display:flex;
-            justify-content:center
-        }
-        .links-module--links--3tgnt a:hover{
-            border-bottom:1px solid var(--primary-color);
-            margin-bottom:-1px
-        }
-        .links-module--links--3tgnt svg{
-            width:2rem;
-            height:2rem;
-            fill:var(--text-color);
-            padding:.75rem
-        }
-        @media (min-width:576px){
-            .links-module--links--3tgnt a{
-                margin:0 .5rem
-            }
-            .links-module--links--3tgnt svg{
-                width:2.5rem;
-                height:2.5rem;
-            }
-        }
-        .footer-module--container--2iXoO{
-            z-index:1;
-        }
-        .footer-module--list--3cuQB{
-            display:flex;
-            list-style:none;
-            justify-content:center;
-            width:100%;
-            padding:0;
-            margin:0;
-        }
-        .footer-module--list--3cuQB li{
-            padding:1em 1.5em;
-        }
-        .footer-module--list--3cuQB li span{
-            color:var(--text-color-light)
-        }
-        .footer-module--list--3cuQB a{
-            color:var(--text-color);
-            text-decoration:none
-        }
-        .footer-module--list--3cuQB a:focus,.footer-module--list--3cuQB a:hover{
-            border-bottom:1px solid var(--text-color);
-            margin-bottom:-1px;
-        }
-        @media (min-width:766px){
-            .footer-module--list--3cuQB li{
-                padding:1em 2em
-            }
-        }
-        </style>
-        <meta name="generator" content="Gatsby 2.18.21"/>
-        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2"/>
-        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"/>
-        <style type="text/css">
-            @font-face{
-                font-family:'Open Sans';
-                font-style:normal;
-                font-weight:300;
-                src:local('Open Sans Light'),local('OpenSans-Light'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format('woff');
-                font-display: swap;
-            }
-            @font-face{
-                font-family:'Open Sans';
-                font-style:normal;font-weight:600;
-                src:local('Open Sans SemiBold'),local('OpenSans-SemiBold'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2'),url(/google-fonts/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhv.woff) format('woff');
-                font-display: swap;
-            }
-        </style>
-        <link rel="icon" href="/icons/icon-48x48.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="manifest" href="/manifest.webmanifest"/>
-        <meta name="theme-color" content="#0873e8"/>
-        <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=733b57ba1424482a4e7d71d08b770d41"/>
-        <link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
-        <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/>
+<html class="no-js" lang="en">
+<head>
 
-        <script>
-            if(true) {
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            }
-            if (typeof ga === "function") {
-                ga('create', 'UA-92889653-1', 'auto', {});
-                }
-        </script>
-        <title data-react-helmet="true">Divyanshu Kumar</title>
-        <link data-react-helmet="true" rel="canonical" href="https://divyanshusingh.me"/>
-        <meta data-react-helmet="true" charSet="utf-8"/>
-        <meta data-react-helmet="true" http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta data-react-helmet="true" name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <meta data-react-helmet="true" name="title" content="Anupam Dagar - Full Stack Developer"/>
-        <meta data-react-helmet="true" name="description"
-            content="Hi, my name is Divyanshu Kumar. I&#x27;m a Software Developer/Machine Learning
-            & Data Science Enthusiast and a pre-final year undergraduate student at
-            Narula Institute of Technology Kolkata in India."/>
-        <meta data-react-helmet="true" name="application-name" content="Divyanshu Kumar"/>
-        <meta data-react-helmet="true" name="theme-color" content="#48bfcd"/>
-        <meta data-react-helmet="true" name="apple-mobile-web-app-title" content="Divyanshu Kumar"/>
-        <meta data-react-helmet="true" name="apple-mobile-web-app-capable" content="yes"/>
-        <meta data-react-helmet="true" name="apple-mobile-web-app-status-bar-style" content="default"/>
-        <meta data-react-helmet="true" name="mobile-web-app-capable" content="yes"/>
-        <link as="script" rel="preload" href="/component---src-pages-index-js-731febc6ec13823651c4.js"/>
-        <link as="script" rel="preload" href="/app-96a0cc9f30c1c53a4d57.js"/>
-        <link as="script" rel="preload" href="/commons-668f6f4ff43a3b8c8800.js"/>
-        <link as="script" rel="preload" href="/styles-1b7197e6ca7183ce89ce.js"/>
-        <link as="script" rel="preload" href="/webpack-runtime-2d50ee2280cc6f01b07a.js"/>
-        <link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous"/>
-    </head>
-<body>
-    <div id="___gatsby">
-        <div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper">
-            <div class="index-module--particles--2USTF">
-                <canvas style="width:100%;height:100%">
-                </canvas>
-            </div>
-            <div class="index-module--outerContainer--3TSMx">
-                <div class="index-module--container--Eqp4Q">
-                    <h1 class="about-module--headline--ZUnTa">Divyanshu Kumar</h1>
-                    <p class="about-module--underline--6OmQ7">I&#x27;m a 
-                        <strong>Software</strong> Developer </br><!--<i>Machine Learning
-                            & Data Science</i> Enthusiast<br/>< -->Pre-Final Year Student at<br>
-                        <strong>Narula Institute of Technology Kolkata</strong></p>
-                <div class="links-module--links--3tgnt">
-                    <a href="https://twitter.com/DivyanshuIAm">
-                        <img align="left" alt="Divyanshu's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-                      </a>
-                      <a href="https://linkedin.com/in/divyanshuusingh">
-                        <img align="left" alt="Divyanshu's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-                      </a>
-                      <a href="https://github.com/divyanshugit">
-                        <img align="left" alt="Divyanshu's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-                      </a>
-                      <a href="https://instagram.com/ig_divyanshusingh/">
-                        <img align="left" alt="Divyanshu's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-                      </a>
-                     
-                      <a href="mailto:kumardivy1999@gmail.com">
-                        <img align="left" alt="Link to my email address" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/mail-dot-ru.svg" />
-                      </a> 
-            </div>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Divyanshu</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
-    <nav class="footer-module--container--2iXoO">
-        <ul class="footer-module--list--3cuQB"></ul>
-    </nav>
-</div>
-</div>
-        <script id="gatsby-script-loader">
-        /*<![CDATA[*/window.pagePath="/";/*]]>*/
-        </script>
-        <script id="gatsby-chunk-mapping">
-        /*<![CDATA[*/window.___chunkMapping={
-            "app":["/app-96a0cc9f30c1c53a4d57.js"],
-            "component---node-modules-gatsby-plugin-offline-app-shell-js":[
-                "/component---node-modules-gatsby-plugin-offline-app-shell-js-49db94800dd63ef7675b.js"]
-                ,"component---src-pages-index-js":["/component---src-pages-index-js-731febc6ec13823651c4.js"]
-            };/*]]>*/
-        </script>
-        <script src="/webpack-runtime-2d50ee2280cc6f01b07a.js" async=""></script>
-        <script src="/styles-1b7197e6ca7183ce89ce.js" async=""></script>
-        <script src="/commons-668f6f4ff43a3b8c8800.js" async=""></script>
-        <script src="/app-96a0cc9f30c1c53a4d57.js" async=""></script>
-        <script src="/component---src-pages-index-js-731febc6ec13823651c4.js" async=""></script>
-    </body>
-</html>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="header-content">
+    
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About Me</a></li>
+                    <li><a class="smoothscroll" href="#works" title="Works">Work Experience</a></li>
+                    <li><a class="smoothscroll" href="#skills" title="Works">Skills</a></li>
+                    <li><a class="smoothscroll" href="#projects" title="Projects">Projects</a></li>
+                    <li><a href="mailto:kumardivy1999@gmail.com" title="Contact us">Say Hello</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a href="https://drive.google.com/file/d/1HFSvjtX_-fNy9V9Skfj2gvD9602gzBRL/view?usp=sharing" class="btn btn--stroke btn--small">Download CV</a>
+
+        </div> <!-- end header-content -->
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h1>
+                Hello, I'm Divyanshu, <br>
+                an aspiring Data Scientist <br>
+                & OpenSource Contributor <br>
+                based in India.
+                </h1>
+
+                <ul class="hero-social">
+                    <li>
+                        <a href="https://github.com/divyanshugit" title="">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/divyanshuusingh" title="">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://kaggle.com/divyanshuusingh" title="">Kaggle</a>
+                    </li>
+                </ul> <!-- end hero-social -->
+
+            </div> 
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">About Me</h3>
+                        <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile-pic.jpg" 
+                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    I am in love with Mathematics since my childhood. But later in class XII, I studied semiconductors which excited me a lot. So I chose Electronic and Communication Engineering for the Bachelors. But again in my 4th semester of engineering while studying Data Structures I found it interesting. At the starting of April '20, while surfing on YouTube and Netflix I found the most of the video is in my interest. So I tried to figure out how this is happening. Then I get to know about Machine Learning and Data Science. When I explore the syllabus of Machine Learning and Data Science, then I felt like this is my thing. Since then I am trying to do some projects and learn as much as possible.
+
+                    I am eagerly looking for research opportunity in the field of Machine Learning ans Data Science.
+
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+    <section id="works" class="sabout__section--profile">
+        <div class="s-about__section s-about__section--profile">
+
+            <!-- <div class="right-vert-line"></div> -->
+
+            <div class="row">
+               <!-- <div class="column large-6 medium-8 tab-full"> -->
+
+            <div class="section-intro" data-num="02" data-aos="fade-up">
+                        <h3 class="subhead">Work Experience</h3>
+                </div>
+            </div>
+
+            <div class="row block-large-1-2 block-900-full work-positions">
+
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">The Spark Foundation</span>
+                                <span class="position__pos">| Data & Business Analytics</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                October 2020 - Present | Internship
+                            </div>
+                        </div>
+
+                        <p>
+                        Tasks during Internship:
+                            <br>- Prediction using Supervised ML
+                            <br>- Prediction using Unsupervised ML
+                            <br>- Prediction using Decision Tree Algorithm
+                            <br>- Stock Market Prediction using Numerical and Textual Analysis
+                            <br>- ‘Exploratory Data Analysis’ on the provided dataset ‘SampleSuperstore’
+                            <br>- Timeline Analysis : Covid-19
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Scholarship Track</span>
+                                <span class="position__pos">| Search Engine Optimization Analyst</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                July 2020 - July 2020
+                            </div>
+                        </div>
+
+                        <p>
+                        Worked on searching keywords, finding new contents for the blogs.
+                        </p>
+                    </div>
+                </div> <!-- end column -->
+                <!-- <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Dropbox</span>
+                                <span class="position__pos">Mobile App Designer</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                April 2014 - August 2015
+                            </div>
+                        </div>
+
+                        <p>
+                        In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, 
+                        vulputate eget, arcu. Fusce risus nisl, viverra et, tempor et, pretium in, sapien.
+                        Phasellus volutpat, metus eget.
+                        </p>
+                    </div>
+                </div>  end column 
+                <div class="column" data-aos="fade-up">
+                    <div class="position">
+                        <div class="position__header">
+                            <h6>
+                                <span class="position__co">Microsoft</span>
+                                <span class="position__pos">Product Designer</span>
+                            </h6>
+                            <div class="position__timeframe">
+                                July 2020 - July 2020 | Part-time
+                            </div>
+                        </div>
+
+                        <p>
+                        Worked on searching keywords, finding new contents for the blogs.
+                        </p>
+                    </div>
+                </div>  end column -->
+
+            </div> <!-- work positions -->
+
+        </div> <!-- end s-about__section -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- skills
+    ================================================== -->
+    <section id="skills" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Skills</h3>
+
+                    <h1 class="display-1">
+                    I focus on getting the best of the
+                    data in an efficient way
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                With some learning experience from 
+                coursework and some practical or 
+                industrial experience. I try to deliver my
+                best to the project.
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <ul class="services-list" data-aos="fade-up">
+                    <li class="services-list__item is-active">
+                        <div class="services-list__item-header">
+                            <h5>Python</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>MatplotLib</li>
+                                <li>Pandas</li>
+                                <li>NumPy</li>
+                                <li>SciPy</li>
+                                <li>scikit-learn</li>
+                                <li>Keras</li>
+
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Machine Learning</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>Linear Regression</li>
+                                <li>Logistic Regression</li>
+                                <li>Support Vector Machine(SVM)</li>
+                                <li>Principal Component Analysis(PCA)</li> 
+                                <li>Random Forest</li>
+                                <li>k-means</li>
+                                <li>K-Nearest Neighbors (KNN)</li>
+
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+                     <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Data Science</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>Data Manipulation</li>
+                                <li>Data Visualization</li>
+                                <li>Data Mining</li>
+                                <li>Data Analysis</li>
+                                <li>Web Scraping</li>
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Other Programming Languages</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>SQL</li>
+                                <li>C++ </li>
+                                <li>MatLab</li>
+                                <li>R</li>
+                                <li>JavaScript</li>
+                                <li>HTML & CSS</li>
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Frameworks</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>Tensorflow</li>
+                                <li>PyTorch</li>
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>VCS & Build Tools</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <ul>
+                                <li>Git</li>
+                                <li>TravisCI</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="services-list__item">
+                        <div class="services-list__item-header">
+                            <h5>Cloud Services</h5>
+                        </div>
+                        <div class="services-list__item-body">
+                            <p>Familiar:</p>
+                            <ul>
+                                <li>Google Cloud Platform</li>
+                                <li>Amazon Web Services</li>
+                                <li>Azure</li>
+                            </ul>
+                        </div>
+                    </li> <!-- services-list__item -->
+
+                </ul> <!-- end services-list -->
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="projects" class="s-portfolio target-section">
+
+        <div class="row s-portfolio__header">
+            <div class="column large-6 medium-8 tab-full">
+                <div class="section-intro" data-num="03" data-aos="fade-up">
+                    <h3 class="subhead">Projects</h3>
+                    <h1 class="display-1">
+                        A selection of recent projects I have worked on.
+                    </h1>
+                </div>
+            </div>
+        </div> <!-- s-porfolio__header -->
+
+        <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-google-adwords.jpg" title="Windows in The City" data-size="1050x700">
+                            <img src="images/portfolio/google-adwords.jpg" 
+                                 srcset="images/portfolio/google-adwords.jpg 1x, images/portfolio/google-adwords@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Data Manipulation</div>
+                        <h4 class="folio-item__title">Generating-Keywords-for-Google-Ads</h4>
+                    </div>
+                    <a href="https://github.com/divyanshugit/Generating-Keywords-for-Google-Ads" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Automatically generate keywords for a search engine marketing campaign using Python.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <!--<div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-building-blocks.jpg" title="Building Blocks" data-size="1050x700">
+                            <img src="images/portfolio/building-blocks.jpg" 
+                                 srcset="images/portfolio/building-blocks.jpg 1x, images/portfolio/building-blocks@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Building Blocks</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div>  end column 
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-shout-jump.jpg" Title="Shout and Jump" data-size="1050x700">
+                            <img src="images/portfolio/shout-and-jump.jpg" 
+                                 srcset="images/portfolio/shout-and-jump.jpg 1x, images/portfolio/shout-and-jump@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">Shout & Jump</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div>  end column 
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-sand-dunes.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/sand-dunes.jpg" 
+                                 srcset="images/portfolio/sand-dunes.jpg 1x, images/portfolio/sand-dunes@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Frontend Design</div>
+                        <h4 class="folio-item__title">Sand Dunes</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div>  end column \
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/woodcraft.jpg" 
+                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Product Design</div>
+                        <h4 class="folio-item__title">Wooocraft</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div>  end column 
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
+                            <img src="images/portfolio/lamp.jpg" 
+                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Product Design</div>
+                        <h4 class="folio-item__title">The Lamp</h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <div class="folio-item__caption">
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    </div>
+                </div>
+            </div>  end column 
+
+        </div>  folio-list -->
+
+    </section> <!-- end portfolio -->
+
+
+    <!-- testimonials
+    ================================================== -->
+    <!-- <section id="testimonials" class="s-testimonials">
+
+        <div class="row collapse">
+
+            <div class="column large-full">
+
+                <div class="testimonial-slider" data-aos="fade-up">
+
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
+                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                        Laudantium quia consequatur molestias delectus culpa.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Tim Cook</strong>
+                                <span>CEO, Apple</span>
+                            </cite>
+                        </div>
+                    </div>  end testimonials__slide
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
+                        Quasi voluptas eius distinctio. Atque eos maxime.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Sundar Pichai</strong>
+                                <span>CEO, Google</span>
+                            </cite>
+                        </div>
+                    </div>  end testimonials__slide 
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+                        Voluptatem dignissimos ut.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Satya Nadella</strong>
+                                <span>CEO, Microsoft</span>
+                            </cite>
+                        </div>
+                    </div>  end testimonials__slide 
+    
+                    <div class="testimonial-slider__slide">
+                        <p>
+                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
+                        quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
+                        Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                        </p>
+                        <div class="testimonial-slider__author">
+                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
+                            <cite class="testimonial-slider__cite">
+                                <strong>Jeff Bezos</strong>
+                                <span>CEO, Amazon</span>
+                            </cite>
+                        </div>
+                    </div>  end testimonials__slide 
+
+                </div>  end testimonial slider 
+                
+            </div>  end column 
+
+        </div>  end row 
+
+
+    </section>  end s-testimonials -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer h-dark-bg">
+        
+        <div class="right-vert-line"></div>
+
+        <div class="row s-footer__main">
+            <div class="column large-6">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead">Get In Touch</h3>
+
+                    <h1 class="display-1">
+                    If you have any project idea or opportunity in<br>
+                    the field of Data Sciene or Machine Learning.
+
+                    </h1>
+                </div>
+
+                <div class="footer-email-us">
+                    <a href="mailto:kumardivy1999@gmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="column large-5">
+                <div class="footer-contacts">
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Email
+                        </h5>
+                        <p class="footer-contact-block__content">
+                            <a href="mailto:kumardivy1999@gmail.com">kumardivy1999@gmail.com</a>
+                        </p>
+                    </div> <!-- end footer-contact-block -->
+                    
+                    <br>
+                    <div class="footer-contact-block" data-aos="fade-up">
+                        <h5 class="footer-contact-block__header">
+                            Social
+                        </h5>
+                        <ul class="footer-contact-block__list">
+                            <li><a href="https://www.linkedin.com/in/divyanshuusingh">Linkedin</a></li>
+                            <li><a href="https://www.github.com/divyanshugit">Github</a></li>
+                            <li><a href="https://www.kaggle.com/divyanshuusingh">Kaggle</a></li>
+                            <li><a href="https://www.instagram.com/ig_divyanshusingh">Instagram</a></li>
+                            <li><a href="https://www.twitter.com/DivyanshuIAm">Twitter</a></li>
+                        </ul>
+                    </div> <!-- end footer-contact-block -->
+                </div>
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="row s-footer__bottom">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright DivyanshuSingh 2020</span> 
+                <!-- <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span> -->
+            </div> <!-- end ss-copyright -->
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
