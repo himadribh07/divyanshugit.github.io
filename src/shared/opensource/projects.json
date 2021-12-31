@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOGSjG_g",
+      "name": "Unscrambling-SOTA",
+      "createdAt": "2021-10-28T07:14:27Z",
+      "url": "https://github.com/divyanshugit/Unscrambling-SOTA",
+      "description": "This repo contains the gist, explanation, and implementation from scratch of the SOTA algorithms.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjUwMjYyNDI=",
+      "name": "Kaggle-Titanic-Machine-Learning-from-Disaster",
+      "createdAt": "2020-12-28T13:55:51Z",
+      "url": "https://github.com/divyanshugit/Kaggle-Titanic-Machine-Learning-from-Disaster",
+      "description": "A machine learning model that predicts which passengers survived the Titanic shipwreck.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGKR2vw",
+      "name": "66DaysOfData",
+      "createdAt": "2021-10-04T13:23:51Z",
+      "url": "https://github.com/divyanshugit/66DaysOfData",
+      "description": "This repo contains the source code for a static webpage where you can find out answers to  Machine Learning Interview questions.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGQLafA",
+      "name": "Inception-of-NLP",
+      "createdAt": "2021-10-21T07:06:37Z",
+      "url": "https://github.com/divyanshugit/Inception-of-NLP",
+      "description": "This repo is a guide for NLP enthusiasts to begin their journey.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnk0MDAwNTU1ODk=",
+      "name": "Detector",
+      "createdAt": "2021-08-26T05:49:08Z",
+      "url": "https://github.com/divyanshugit/Detector",
+      "description": "This repo contains live ai based models with the capability to detect things like emotion, spam, image, and more.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        }
+      ]
+    }
+  ]
+}

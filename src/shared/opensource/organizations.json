@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "login": "celery",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/319983?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "TheAlgorithms",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20487725?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "tensorflow",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "layer5io",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44620851?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "huggingface",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "factmata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25148231?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "ai-landscape",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83490009?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "NimbleEdge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79374674?v=4",
+      "__typename": "Organization"
+    }
+  ]
+}
