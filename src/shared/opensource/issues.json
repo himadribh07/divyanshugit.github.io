@@ -1,0 +1,167 @@
+{
+  "closed": 4,
+  "data": [
+    {
+      "id": "I_kwDOEVLxMM48XzZh",
+      "closed": false,
+      "title": "ML Algorithms from Scratch",
+      "createdAt": "2021-10-01T04:24:04Z",
+      "url": "https://github.com/divyanshugit/Avid-Algorithms/issues/13",
+      "number": 13,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "Avid-Algorithms",
+        "url": "https://github.com/divyanshugit/Avid-Algorithms",
+        "owner": {
+          "login": "divyanshugit",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/53843818?u=12a8fcc021eed35ce5043752f0e3ad83da857f20&v=4",
+          "url": "https://github.com/divyanshugit"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOEVLxMM48XmCW",
+      "closed": true,
+      "title": "Leetcode Solution",
+      "createdAt": "2021-10-01T02:41:37Z",
+      "url": "https://github.com/divyanshugit/Avid-Algorithms/issues/3",
+      "number": 3,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "Avid-Algorithms",
+        "url": "https://github.com/divyanshugit/Avid-Algorithms",
+        "owner": {
+          "login": "divyanshugit",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/53843818?u=12a8fcc021eed35ce5043752f0e3ad83da857f20&v=4",
+          "url": "https://github.com/divyanshugit"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOEVLxMM48XllK",
+      "closed": false,
+      "title": "Create Patterns",
+      "createdAt": "2021-10-01T02:37:31Z",
+      "url": "https://github.com/divyanshugit/Avid-Algorithms/issues/2",
+      "number": 2,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "Avid-Algorithms",
+        "url": "https://github.com/divyanshugit/Avid-Algorithms",
+        "owner": {
+          "login": "divyanshugit",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/53843818?u=12a8fcc021eed35ce5043752f0e3ad83da857f20&v=4",
+          "url": "https://github.com/divyanshugit"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOEVLxMM48Xku1",
+      "closed": false,
+      "title": "Contributing to this repo",
+      "createdAt": "2021-10-01T02:29:54Z",
+      "url": "https://github.com/divyanshugit/Avid-Algorithms/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "Avid-Algorithms",
+        "url": "https://github.com/divyanshugit/Avid-Algorithms",
+        "owner": {
+          "login": "divyanshugit",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/53843818?u=12a8fcc021eed35ce5043752f0e3ad83da857f20&v=4",
+          "url": "https://github.com/divyanshugit"
+        }
+      }
+    },
+    {
+      "id": "MDU6SXNzdWU4NTIzNDU1NDU=",
+      "closed": true,
+      "title": "How to make subtasks(queue) of celery tasks in celery-5.0.5?",
+      "createdAt": "2021-04-07T12:14:09Z",
+      "url": "https://github.com/celery/celery/issues/6716",
+      "number": 6716,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "celery",
+        "url": "https://github.com/celery/celery",
+        "owner": {
+          "login": "celery",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/319983?v=4",
+          "url": "https://github.com/celery"
+        }
+      }
+    },
+    {
+      "id": "MDU6SXNzdWU4Mjg4NzE2Mzk=",
+      "closed": true,
+      "title": "Unable to reduce time in summarization!",
+      "createdAt": "2021-03-11T07:33:09Z",
+      "url": "https://github.com/huggingface/transformers/issues/10641",
+      "number": 10641,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "owner": {
+          "login": "huggingface",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25720743?v=4",
+          "url": "https://github.com/huggingface"
+        }
+      }
+    },
+    {
+      "id": "MDU6SXNzdWU4MTk4NTE3OTY=",
+      "closed": true,
+      "title": "Unable to see the documentation!",
+      "createdAt": "2021-03-02T09:58:12Z",
+      "url": "https://github.com/tensorflow/community/issues/362",
+      "number": 362,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "community",
+        "url": "https://github.com/tensorflow/community",
+        "owner": {
+          "login": "tensorflow",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
+          "url": "https://github.com/tensorflow"
+        }
+      }
+    },
+    {
+      "id": "MDU6SXNzdWU4MTk2NzM5NTI=",
+      "closed": false,
+      "title": "How to use distribution strategy at the time of production?",
+      "createdAt": "2021-03-02T06:16:02Z",
+      "url": "https://github.com/tensorflow/community/issues/361",
+      "number": 361,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "community",
+        "url": "https://github.com/tensorflow/community",
+        "owner": {
+          "login": "tensorflow",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/15658638?v=4",
+          "url": "https://github.com/tensorflow"
+        }
+      }
+    }
+  ],
+  "open": 4,
+  "totalCount": 8
+}
