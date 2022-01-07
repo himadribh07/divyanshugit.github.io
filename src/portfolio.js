@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Divyanshu Kumar",
   logo_name: "DivyanshuSingh",
-  nickname: "Machine Learner",
+  nickname: "Aspiring Researcher",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -197,74 +197,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "Building resposive website front end using React-Redux",
-        "Creating application backend in Node, Express & Flask",
-        "Confidence: 45%",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -331,7 +263,7 @@ const certifications = {
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://coursera.org/share/e64551666ef61ffabb56f395ba9369a5",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -340,17 +272,17 @@ const certifications = {
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://coursera.org/share/d7984822528a343e4734005c6bfbe5c7",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Data Science Math Skills",
+      subtitle: "- Duke University",
+      logo_path: "duke_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://coursera.org/share/259bde8a7e3c341482fc145d3d8c5e61",
+      alt_name: "Duke University",
       color_code: "#0C9D5899",
     },
   ],
@@ -413,7 +345,7 @@ const experience = {
           duration: "Sep 2021 - Present",
           location: "Remote, Geneva, Switzerland",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I have worked on: (1) Identified more than 30 in-house resources to write content related to past competitions and research. (2) Wrote 4 blogs per month on ongoing/past competition and research papers (3)Helping in the creation of Blitz puzzles.",
           color: "#ee3c26",
         },
         {
@@ -424,7 +356,7 @@ const experience = {
           duration: "Nov 2021 - Dec 2021",
           location: "Remote, London, United Kingdom",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I have worked on Data Augmenatation and Fake News Detection Model building.",
           color: "#ee3c26",
         },
         {
@@ -435,18 +367,18 @@ const experience = {
           duration: "May 2021 - Oct 2021",
           location: "Remote, Hyderabad, India",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "During this internship, I worked cleaning data and building Predictive Models. I built a model which is used for predicting next payment data.",
           color: "#ee3c26",
         },
         {
           title: "NLP Researcher",
           company: "Helppr.ai",
           company_url: "https://helppr.ai/",
-          logo_path: "intel_logo.jpg",
+          logo_path: "helppr_logo.png",
           duration: "March 2021 - April 2021",
           location: "Gurgoan, India",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "During the internship, I tested multiple pre-trained transformers and language models from HuggingFace, Used TensorFlow for fine tuning and inference.",
           color: "#0071C5",
         },
       ],
@@ -454,62 +386,17 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        // {
+        //   title: "Mentor",
+        //   company: "OpenMined",
+        //   company_url: "https://about.google/",
+        //   logo_path: "google_logo.png",
+        //   duration: "June 2019 - April 2020",
+        //   location: "Hyderabad, Telangana",
+        //   description:
+        //     "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+        //   color: "#4285F4",
+        // },
       ],
     },
   ],
